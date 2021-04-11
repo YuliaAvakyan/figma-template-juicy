@@ -1,0 +1,21 @@
+.topMenu {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topMenu__item {
+  margin: 0 20px;
+
+  > a {
+    color: $black;
+    font-weight: 700;
+  }
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}

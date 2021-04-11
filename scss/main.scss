@@ -1,0 +1,35 @@
+@import "utils/vars";
+
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Dubai;
+  color: $black;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#page {
+  flex-grow: 1;
+  margin: 55px 0;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+.mainWrapper {
+  max-width: $desktop-content-width;
+  margin: auto;
+}
+
+@import "components/header";
+@import "components/topMenu";
+@import "components/btn";
+@import "components/logo";
+@import "components/footer";
